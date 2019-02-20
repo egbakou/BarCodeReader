@@ -173,9 +173,15 @@
     <BundleResource Include="Resources\barcodescanner.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\qrcodebg.png" />
+    <BundleResource Include="Resources\share.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\share.png" />
+    <BundleResource Include="Resources\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hovbg.png" />
   </ItemGroup>
 </Project>
