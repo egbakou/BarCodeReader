@@ -47,12 +47,13 @@
             </ImageButton>
             <Label
                 x:Name="ScanningResultLabel"
-                Margin="0,20,0,0"
+                Margin="10,20,10,0"
                 FontAttributes="Bold"
-                FontSize="16"
-                HeightRequest="40"
-                HorizontalOptions="FillAndExpand"
-                TextColor="#525ABB" />
+                FontSize="18"
+                HorizontalOptions="CenterAndExpand"
+                HorizontalTextAlignment="Center"
+                TextColor="#525ABB"
+                VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

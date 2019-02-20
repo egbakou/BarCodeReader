@@ -13,11 +13,13 @@ namespace BarCodeReader.Views
 	{
         private MainViewModel viewModel;
 
+
 		public MainView ()
 		{
 			InitializeComponent ();
             BindingContext = viewModel = new MainViewModel();
 		}
+
 
         private async void ImageButton_Clicked(object sender, EventArgs e)
         {
@@ -67,7 +69,7 @@ namespace BarCodeReader.Views
         {
             if (string.IsNullOrEmpty(ScanningResultLabel.Text))
             {
-                await DisplayAlert("Information !", "No scan result to clear", "OK");
+                await DisplayAlert("Warning !", "No scan result to share", "OK");
             }
             else
             {
@@ -80,7 +82,7 @@ namespace BarCodeReader.Views
         {
             if (string.IsNullOrEmpty(ScanningResultLabel.Text))
             {
-                await DisplayAlert("Warning !", "No scan result to share", "OK");
+                await DisplayAlert("Warning !", "No scan result to clear", "OK");
             }
             else
             {
