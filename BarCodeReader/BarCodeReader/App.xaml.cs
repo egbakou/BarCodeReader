@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BarCodeReader.ViewModels.Base;
+using BarCodeReader.Views;
+using System.Threading.Tasks;
+using WhatsApp.Services.Navigation;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +14,23 @@ namespace BarCodeReader
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            InitApp();
+
+            if(Device.RuntimePlatform == Device.UWP)
+            {
+                InitNavigation();
+            }
+            MainPage = new CustomNavigationView(new MainView());
+        }
+
+        private Task InitNavigation()
+        {
+            var navigationService = ViewModelLocator.Resolve<INavigationService>();
+            return navigationService.InitializeAsync();
+        }
+        private void InitApp()
+        {
+            ViewModelLocator.RegisterDependencies(false);
         }
 
         protected override void OnStart()
