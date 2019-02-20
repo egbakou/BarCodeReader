@@ -7,8 +7,14 @@
     BackgroundImage="bg.jpg">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="clear.png" Text="Partager" />
-        <ToolbarItem Icon="share.png" Text="Clear" />
+        <ToolbarItem
+            Clicked="ClearBt_Clicked"
+            Icon="clear.png"
+            Text="Clear" />
+        <ToolbarItem
+            Clicked="ShareBt_Clicked"
+            Icon="share.png"
+            Text="Share" />
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
