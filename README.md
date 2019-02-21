@@ -7,7 +7,7 @@
 |      [Autofac](https://www.nuget.org/packages/Autofac/)      |  4.9.1  | Inversion of control |
 | [ZXing.Net.Mobile](https://www.nuget.org/packages/ZXing.Net.Mobile/) |  2.4.1  |  Scanning Barcodes   |
 | [ZXing.Net.Mobile.Forms](https://www.nuget.org/packages/ZXing.Net.Mobile.Forms/) |  2.4.1  |  Scanning Barcodes   |
-| [Xamarin.Essentials](https://www.nuget.org/packages/Xamarin.Essentials) |  1.0.1  |  Sharing scan resul  |
+| [Xamarin.Essentials](https://www.nuget.org/packages/Xamarin.Essentials) |  1.0.1  | Sharing scan result  |
 
 ### Initializations and Configurations
 
@@ -263,3 +263,10 @@ namespace BarCodeReader.ViewModels
 
 ### Screenshots
 
+![](BarCodeReader/screenshots/interface.png)
+
+![](BarCodeReader/screenshots/scanning.png)
+
+![](BarCodeReader/screenshots/ScanningResult.png)
+
+![](BarCodeReader/screenshots/shareScanResult.png)
