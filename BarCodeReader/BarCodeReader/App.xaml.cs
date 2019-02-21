@@ -20,7 +20,7 @@ namespace BarCodeReader
             {
                 InitNavigation();
             }
-            MainPage = new CustomNavigationView(new MainView());
+            MainPage = new CustomNavigationView(new MainMenuView());
         }
 
         private Task InitNavigation()
