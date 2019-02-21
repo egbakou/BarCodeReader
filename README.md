@@ -1,5 +1,9 @@
 ## Barcodes Reader in Xamarin.Forms
 
+### Article Link
+
+[Barcodes Reader in Xamarin.Forms](https://lioncoding.com/2019/02/21/2019-02-21-concevoir-un-lecteur-de-code-barres-avec-xamarin-forms/)
+
 ### Nuget packages used
 
 |                           Packages                           | Version |       Use for        |
@@ -119,7 +123,7 @@ public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 </ContentPage>
 ```
 
-### View code behind
+### Code behind
 
 ```c#
 using BarCodeReader.ViewModels;
