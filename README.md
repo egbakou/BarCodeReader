@@ -263,6 +263,10 @@ namespace BarCodeReader.ViewModels
 
 ### Screenshots
 
+```html
+<img src="BarCodeReader/screenshots/interface.png" width="150" height="300" />
+```
+
 ![](BarCodeReader/screenshots/interface.png)
 
 ![](BarCodeReader/screenshots/scanning.png)
