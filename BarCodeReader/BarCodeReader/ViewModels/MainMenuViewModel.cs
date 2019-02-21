@@ -1,5 +1,4 @@
-﻿using BarCodeReader.Views;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -28,6 +27,8 @@ namespace BarCodeReader.ViewModels
             });
         }
 
+
+        // Share Scan result
         private async Task ShareResult()
         {
             if (string.IsNullOrEmpty(ScanResult))
@@ -40,6 +41,8 @@ namespace BarCodeReader.ViewModels
             }
         }
 
+
+        // Clear Scan result
         private void ClearResult()
         {
             if (string.IsNullOrEmpty(ScanResult))
@@ -52,6 +55,8 @@ namespace BarCodeReader.ViewModels
             }
         }
 
+
+        // Do scanning
         private async Task Scannning()
         {
             var scanPage = new ZXingScannerPage

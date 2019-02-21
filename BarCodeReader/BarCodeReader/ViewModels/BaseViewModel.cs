@@ -8,13 +8,11 @@ namespace BarCodeReader.ViewModels
     public class BaseViewModel : ObservableObject
     {
         
-       // protected readonly IDialogService DialogService;
         protected readonly INavigationService NavigationService;
 
         public BaseViewModel()
         {
 
-            //DialogService = ViewModelLocator.Resolve<IDialogService>();
             NavigationService = ViewModelLocator.Resolve<INavigationService>();
            
         }
