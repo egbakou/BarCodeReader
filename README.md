@@ -1,6 +1,6 @@
 ## Barcodes Reader in Xamarin.Forms
 
-### Article Link
+### Lioncoding article Link
 
 [Barcodes Reader in Xamarin.Forms](https://lioncoding.com/2019/02/21/2019-02-21-concevoir-un-lecteur-de-code-barres-avec-xamarin-forms/)
 
