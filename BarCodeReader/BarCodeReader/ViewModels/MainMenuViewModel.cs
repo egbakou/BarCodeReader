@@ -11,7 +11,7 @@ namespace BarCodeReader.ViewModels
     {
         public MainMenuViewModel()
         {
-            Title = "QR code & Barcode reader";
+            Title = "Barcode Reader";
             ScanCommand = new Command(async () => await Scannning());
             ClearResultCommand = new Command(ClearResult);
             ShareResultCommand = new Command(async () => await ShareResult());

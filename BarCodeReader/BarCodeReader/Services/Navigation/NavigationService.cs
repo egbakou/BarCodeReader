@@ -24,7 +24,7 @@ namespace BarCodeReader.Services.Navigation
 
         public Task InitializeAsync()
         {
-            return NavigateToAsync<MainViewModel>();
+            return NavigateToAsync<MainMenuViewModel>();
 
         }
 
