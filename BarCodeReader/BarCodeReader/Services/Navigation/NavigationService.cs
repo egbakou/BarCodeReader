@@ -4,7 +4,6 @@ using System;
 using System.Globalization;
 using System.Reflection;
 using System.Threading.Tasks;
-using WhatsApp.Services.Navigation;
 using Xamarin.Forms;
 
 namespace BarCodeReader.Services.Navigation

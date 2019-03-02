@@ -1,7 +1,7 @@
 ﻿using BarCodeReader.ViewModels.Base;
 using BarCodeReader.Views;
 using System.Threading.Tasks;
-using WhatsApp.Services.Navigation;
+using BarCodeReader.Services.Navigation;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

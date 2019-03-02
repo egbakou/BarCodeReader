@@ -1,7 +1,7 @@
 ﻿using BarCodeReader.Helpers;
 using BarCodeReader.ViewModels.Base;
 using System.Threading.Tasks;
-using WhatsApp.Services.Navigation;
+using BarCodeReader.Services.Navigation;
 
 namespace BarCodeReader.ViewModels
 {

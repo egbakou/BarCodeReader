@@ -3,7 +3,6 @@ using BarCodeReader.Services.Navigation;
 using System;
 using System.Globalization;
 using System.Reflection;
-using WhatsApp.Services.Navigation;
 using Xamarin.Forms;
 
 namespace BarCodeReader.ViewModels.Base
